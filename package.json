@@ -1,0 +1,20 @@
+{
+  "name": "tsframework",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "json": "json-server -w db.json"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
